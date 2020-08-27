@@ -3,15 +3,13 @@
 ## *APIs(Application Programming Interfaces)
 
 ### 개발자가 복잡한 기능을보다 쉽게 ​​만들 수 있도록 프로그래밍 언어로 제공되는 구성입니다. 더 복잡한 코드를 추상화하여 대신 사용하기 더 쉬운 구문을 제공합니다.
-#
-#
+
 
 ## *Web APIs
 
 #### Web API collection : https://developer.mozilla.org/en-US/docs/Web/API
 
-#
-#
+
 
 ## *Browser 구조 분석
 
@@ -23,8 +21,7 @@
 #### Viewport: https://developer.mozilla.org/en-US/docs/Glossary/layout_viewport
 #### Navigator: https://developer.mozilla.org/en-US/docs/Web/API/Navigator
 
-#
-#
+
 
 ## *윈도우 사이즈 표기
 
@@ -47,11 +44,9 @@ window.outerHeight
 window.innerWidth
 window.innerHeight
 ```
-#
-#
+
 ## *브라우저 좌표
 
-#
 ```js
 //요소의 너비와 높이 등 의 정보
 Element.getBoundingClientRect()
@@ -63,8 +58,6 @@ Element.getBoundingClientRect()
 ### Page x, y
 ###### 문서의 제일 시작점 x, y
 
-#
-#
 
 ## *윈도우 스크롤링 APIs
 
@@ -78,11 +71,8 @@ window.scrollTO
 window.scrollIntoView
 ```
 
-#
-#
 ## *Window load
 
-#
 ```js
     //only document(HTML이 완료가 되면 호출)
     window.addEventListener('DOMContentLoaded', () => {
