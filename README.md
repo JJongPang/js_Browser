@@ -1,20 +1,20 @@
 # Web APIs 이해의 시작
  
 ## *APIs(Application Programming Interfaces)
-------------------------------------------
+
 ### 개발자가 복잡한 기능을보다 쉽게 ​​만들 수 있도록 프로그래밍 언어로 제공되는 구성입니다. 더 복잡한 코드를 추상화하여 대신 사용하기 더 쉬운 구문을 제공합니다.
 #
 #
 
 ## *Web APIs
-----------------------
+
 #### Web API collection : https://developer.mozilla.org/en-US/docs/Web/API
 
 #
 #
 
 ## *Browser 구조 분석
-------------------------------
+
 ### window: 브라우저에서 현재 열려있는 전첵적인 창
 ### document: 페이지가 표시되는 부분
 
@@ -27,7 +27,7 @@
 #
 
 ## *윈도우 사이즈 표기
-----------------------------
+
 ### screen size: 모니터 사이즈
 ### outer size: 브라우저 전체 사이즈
 ### inner size: 웹페이지 수직 스크롤 포함 사이즈
@@ -50,7 +50,7 @@ window.innerHeight
 #
 #
 ## *브라우저 좌표
---------------------
+
 #
 ```js
 //요소의 너비와 높이 등 의 정보
@@ -67,7 +67,7 @@ Element.getBoundingClientRect()
 #
 
 ## *윈도우 스크롤링 APIs
-------------------------
+
 #### scrollBy
 #### scrollTO
 #### scrollIntoView
@@ -81,7 +81,7 @@ window.scrollIntoView
 #
 #
 ## *Window load
--------------
+
 #
 ```js
     //only document(HTML이 완료가 되면 호출)
