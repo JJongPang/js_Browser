@@ -71,9 +71,9 @@ Element.getBoundingClientRect()
 #### scrollIntoView
 
 ```js
-window.scrollBy
-window.scrollTO
-window.scrollIntoView
+window.scrollBy();
+window.scrollTO();
+window.scrollIntoView();
 ```
 
 
