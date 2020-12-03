@@ -10,29 +10,24 @@
 
 #### Web API collection : https://developer.mozilla.org/en-US/docs/Web/API
 
-
-
+<br />
 
 ## *Browser 구조 분석
 ### window: 브라우저에서 현재 열려있는 전첵적인 창
 ### document: 페이지가 표시되는 부분
+- Window: https://developer.mozilla.org/en-US/docs/Web/API/Window
+- Document: https://developer.mozilla.org/en-US/docs/Web/API/Document
+- Viewport: https://developer.mozilla.org/en-US/docs/Glossary/layout_viewport
+- Navigator: https://developer.mozilla.org/en-US/docs/Web/API/Navigator
 
-
-
-
-#### Window: https://developer.mozilla.org/en-US/docs/Web/API/Window
-#### Document: https://developer.mozilla.org/en-US/docs/Web/API/Document
-#### Viewport: https://developer.mozilla.org/en-US/docs/Glossary/layout_viewport
-#### Navigator: https://developer.mozilla.org/en-US/docs/Web/API/Navigator
-
-
-
+<br />
 
 ## *윈도우 사이즈 표기
-### screen size: 모니터 사이즈
-### outer size: 브라우저 전체 사이즈
-### inner size: 웹페이지 수직 스크롤 포함 사이즈
-### client size: 웹페이지 수직 스크롤 사이즈 제외 한 사이즈
+- screen size: 모니터 사이즈
+- outer size: 브라우저 전체 사이즈
+- inner size: 웹페이지 수직 스크롤 포함 사이즈
+- client size: 웹페이지 수직 스크롤 사이즈 제외 한 사이즈
+
 ```js
 window.addEventListener('resize', () => {});
 
@@ -49,7 +44,7 @@ window.innerWidth
 window.innerHeight
 ```
 
-
+<br />
 
 ## *브라우저 좌표
 
@@ -58,17 +53,16 @@ window.innerHeight
 Element.getBoundingClientRect()
 ```
 ### Client x, y
-###### 브라우저 window의 x, y
-
+- 브라우저 window의 x, y
 ### Page x, y
-###### 문서의 제일 시작점 x, y
+- 문서의 제일 시작점 x, y
 
-
+<br />
 
 ## *윈도우 스크롤링 APIs
-#### scrollBy
-#### scrollTO
-#### scrollIntoView
+- scrollBy
+- scrollTO
+- scrollIntoView
 
 ```js
 window.scrollBy();
