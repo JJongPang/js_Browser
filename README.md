@@ -70,8 +70,6 @@ window.scrollTO();
 window.scrollIntoView();
 ```
 
-
-
 ## *Window load
 
 ```js
